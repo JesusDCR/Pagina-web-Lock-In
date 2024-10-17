@@ -56,9 +56,19 @@
 
     <section>
         <h3>Contáctanos</h3>
-        <a href="https://www.facebook.com/?locale=es_LA" title="Facebook" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com/" title="Instagram" target="_blank">Instagram</a>
-        <a href="https://www.tiktok.com/" title="TikTok" target="_blank">TikTok</a>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+    
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" placeholder="Tu correo" required><br><br>
+    
+            <label for="mensaje">Mensaje</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea><br><br>
+    
+            <button type="submit">Enviar</button>
+        </form>
     </section>
+    
 </body>
 </html>
