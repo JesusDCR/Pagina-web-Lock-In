@@ -69,3 +69,49 @@ hr {
     margin: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+.title-rate {
+    text-align: center;
+    padding-top: 50px
+}
+
+.title-rate h3 {
+    display: inline-block;
+    border-bottom: 2px solid #5fd1d7;
+    padding-bottom: 5px;
+}
+
+
+.rates1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.rate-andres, .rate-claudia {
+    flex: 1;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.stars {
+    width: 100px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+
+
+
