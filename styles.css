@@ -3,7 +3,7 @@
     src: url(resources/fonts/DMSans-Regular.ttf);
 }
 
-body{
+body {
     font-family: DMSans;
 }
 
@@ -19,35 +19,53 @@ header {
     flex-direction: column;
 }
 
-header .button-container{
+header .button-container {
     text-align: end;
     margin-top: 20px;
 }
 
-header h1{
+header h1 {
     font-size: 48px;
     margin-bottom: 0px;
 }
 
-header h2{
+header h2 {
     font-size: 24px;
     margin-top: 0px;
+    color: rgb(85, 85, 85);
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
-footer{
+.review {
+    color: rgb(99, 99, 99);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
     text-align: center;
     padding: 40px;
     background-color: rgb(84, 84, 84);
 }
 
-footer p{
+footer p {
     color: white;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #5fd1d7;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
