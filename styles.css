@@ -5,10 +5,6 @@
 
 body{
     font-family: DMSans;
-    margin: 0;
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
 }
 
 header {
@@ -36,4 +32,22 @@ header h1{
 header h2{
     font-size: 24px;
     margin-top: 0px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(84, 84, 84);
+}
+
+footer p{
+    color: white;
 }
