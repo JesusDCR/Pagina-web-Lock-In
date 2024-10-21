@@ -1,0 +1,8 @@
+@font-face {
+    font-family: DMSans;
+    src: url(resources/fonts/DMSans-Regular.ttf);
+}
+
+body{
+    font-family: DMSans;
+}
