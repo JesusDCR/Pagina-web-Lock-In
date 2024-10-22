@@ -23,14 +23,14 @@ header {
 .button-container a img {
     width: 300px;
     height: auto;
-    padding-top: 22.5px;
+    padding-top: 2px;
     border-radius: 12px;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .button-container a img:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -74,13 +74,12 @@ footer p {
 }
 
 .social-networks a img {
-    transition: transform 0.2s; box-shadow: 0.2s;
+    transition: transform 0.2s;
     border-radius: 40px;
 }
 
 .social-networks a img:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 hr {
@@ -131,6 +130,81 @@ hr {
     margin-right: 10px;
     vertical-align: middle;
 }
+
+.contact-us {
+    text-align: center;
+    padding: 40px;
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    margin: 30px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    color: #333;
+
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    font-family: DMSans;
+    resize: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #4A90E2;
+    outline: none;
+}
+
+.submit-button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: block;
+    margin: 10px auto;
+}
+
+.submit-button:hover {
+    background-color: #357ABD;
+    transform: scale(1.05);
+}
+
+.submit-button:active {
+    transform: scale(0.95);
+}
+
 
 
 
