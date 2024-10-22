@@ -30,7 +30,7 @@ header {
 
 .button-container a img:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -59,8 +59,8 @@ header h2 {
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 footer {
@@ -75,7 +75,6 @@ footer p {
 
 .social-networks a img {
     transition: transform 0.2s;
-    border-radius: 40px;
 }
 
 .social-networks a img:hover {
@@ -92,7 +91,8 @@ hr {
 
 .title-rate {
     text-align: center;
-    padding-top: 50px
+    padding-top: 40px;
+    padding-bottom: 15px;
 }
 
 .title-rate h3 {
