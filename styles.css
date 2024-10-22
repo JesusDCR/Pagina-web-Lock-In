@@ -73,6 +73,16 @@ footer p {
     color: white;
 }
 
+.social-networks a img {
+    transition: transform 0.2s; box-shadow: 0.2s;
+    border-radius: 40px;
+}
+
+.social-networks a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 hr {
     border: none;
     height: 2px;
