@@ -20,10 +20,19 @@ header {
     flex-direction: column;
 }
 
-header .button-container {
-    text-align: end;
-    margin-top: 20px;
+.button-container a img {
+    width: 300px;
+    height: auto;
+    padding-top: 22.5px;
+    border-radius: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
+
+.button-container a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 header h1 {
     font-size: 48px;
