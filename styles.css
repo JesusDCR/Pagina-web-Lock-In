@@ -3,6 +3,11 @@
     src: url(resources/fonts/DMSans-Regular.ttf);
 }
 
+@font-face {
+    font-family: Oceanic;
+    src: url(resources/fonts/oceanicdrift.ttf);
+}
+
 body {
     font-family: DMSans;
     background-color: rgb(235, 235, 235);
@@ -10,14 +15,28 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
     align-items: center;
     padding: 40px;
+    background-color: #e17b4c;
+}
+
+header img {
+    width: 160px;
+    height: auto;
 }
 
 .title {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.title h1 {
+    font-family: Oceanic;
+    font-size: 64px;
+    color: white;
 }
 
 .button-container a img {
@@ -84,7 +103,7 @@ footer p {
 hr {
     border: none;
     height: 2px;
-    background-color: #5fd1d7;
+    background-color: #e17b4c;
     margin: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -97,7 +116,7 @@ hr {
 
 .title-rate h3 {
     display: inline-block;
-    border-bottom: 2px solid #5fd1d7;
+    border-bottom: 2px solid #e17b4c;
     padding-bottom: 5px;
 }
 
@@ -179,12 +198,12 @@ hr {
 
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: #4A90E2;
+    border-color: #e17b4c;
     outline: none;
 }
 
 .submit-button {
-    background-color: #4A90E2;
+    background-color: #e17b4c;
     color: white;
     border: none;
     border-radius: 25px;
@@ -197,7 +216,7 @@ hr {
 }
 
 .submit-button:hover {
-    background-color: #357ABD;
+    background-color: #c3683e;
     transform: scale(1.05);
 }
 
