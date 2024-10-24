@@ -224,8 +224,42 @@ hr {
     transform: scale(0.95);
 }
 
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
+.feature-item.left {
+    flex-direction: left;
+}
 
+.feature-item.right {
+    flex-direction: right;
+}
 
+.feature-item img {
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
+    width: 30%;
+}
 
+.feature-item h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.feature-item p {
+    margin: 5px 0 0 0;
+    color: rgb(85, 85, 85);
+}
