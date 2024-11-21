@@ -3,29 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lock In</title>
+    <title>Lock In - Transforma Tu Salud</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="resources/img/logos/logo-lock-in.png" alt="">
-            <div class="title">
-                <h1>LOCK IN</h1>
-                <h2>Transforma tu salud</h2>
-            </div>
-            <div class = button-container>
-                <a href="https://play.google.com/store/apps?hl=es_CO" target="_blank"><img src="resources/img/disponible-en-google-play.png" alt="Disponible en Google Play"></a>
+            <div class="header-container">
+                <div class="logo">
+                    <img src="resources/img/logos/logo-lock-in.png" alt="Logo Lock In">
+                <h1 class="name-lock-in">LOCK IN</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#features">Características</a></li>
+                        <li><a href="#rates">Reseñas</a></li>
+                        <li><a href="#contact-us">Contáctanos</a></li>
+                        <li><a href="#app-section">Descargar</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
-        <hr>
-        <section>
+        <section class="first-moment fade-in">
+            <h2 class="h2-eslogan">Transforma tu <span class="higlight">salud</span></h2>
             <div class="review">
-                <p>En <b>Lock In</b> combinamos diversión y salud para que mantenerse activo sea más fácil y motivador. Creemos en alcanzar metas mediante pequeños logros diarios y desafíos emocionantes. No importa si eres joven, adulto o llevas una vida sedentaria; aquí encontrarás un plan adaptado a tu ritmo y una comunidad que te acompañará en cada paso.</p>
+                <p><b>Lock In</b> promueve una vida activa y saludable a través de metas diarias y desafíos motivadores para todos.</p>
+                <button id="scroll-button" class="review-button"><img src="resources/img/flecha-abajo.png" alt="Ir a la App" class="arrow-button"></button>
             </div>
         </section>
-        <hr>
-        <section class="features">
+
+        <section class="app-section" id="app-section">
+            <div class="app-text">
+                <h1>Logra. Alcanza. Cambia. Persigue. Persiste.</h1>
+                <p>Lock In es tu compañero ideal para hacer del ejercicio una rutina atractiva y desafiante. Con funciones de gamificación y progresos visibles, nunca te faltará motivación.</p>
+                <div class="app-buttons">
+                    <a href="https://www.figma.com/proto/eHE2uKwZK3irEwR8lnpkL3/LOCK-IN-PROTOTYPE?node-id=101-584&t=ek54aLG05QLUTXav-1" target="_blank" class="button-primary">Descarga la App</a>
+                    <a href="#more-info" class="button-secondary">Más</a>
+                </div>
+            </div>
+            <div class="app-image-container">
+                <img src="resources/img/holding-phone.png" class="app-image" alt="Lock In App en dispositivo">
+            </div>
+        </section>
+        
+        <section class="features" id="features">
             <div class="feature-item left">
                 <img src="resources/img/desafíos enganchantes.png" alt="Desafío Enganchante">
                 <div>
@@ -58,10 +79,7 @@
                 <img src="resources/img/entrenos personalizados.png" alt="Entrenos Personalizados">
             </div>
         </section>
-        
-        
-        <hr>
-        <section>
+        <section class="rates" id="rates">
             <div class="title-rate">
                 <h3>Lo que nuestros usuarios dicen</h3>
             </div>
@@ -94,8 +112,7 @@
                 </div>
             </div>
         </section>
-        <hr>
-        <section class="contact-us">
+        <section class="contact-us" id="contact-us">
             <h3>Contáctanos</h3>
             <form action="#" method="post" class="contact-form">
                 <div class="form-group">
@@ -131,5 +148,6 @@
         </div>
         <p>&copy; 2024 Lock In. Todos los derechos reservados.</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
