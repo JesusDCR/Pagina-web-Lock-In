@@ -474,10 +474,6 @@ hr {
 
 @media (max-width: 768px) {
 
-    body {
-        padding: 0 15px;
-    }
-
     header {
         border-radius: 20px;
     }
